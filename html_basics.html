@@ -1,18 +1,348 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
+    <link rel="icon" href="https://tmsearch.onlinepatent.ru/images/e52/e52c8b38-5e96-43b5-9e93-ec731ca9d2bd.jpg" sizes="64x64">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024, user-scalable=no">
     <title>Базовая разметка HTML</title>
 </head>
+
+<header>
+    <img src="https://s.rbk.ru/v1_companies_s3/resized/550xH/media/trademarks/dcb5e8ec-66e8-40e0-9d87-6a1823616320.jpg" alt="SKUF">
+    <nav>
+        <ul>
+            <li><a href="google.com">Скуфл</a></li>
+            <li><a href="instagram.com">Скуфограм</a></li>
+        </ul>
+    </nav>
+</header>
+
+<aside>
+    <nav>
+        <ul>
+            <li>ПЛЫЛИ МЫ ПО МОРЮ</li>
+            <li>ВЕТЕР МАЧТУ РВАЛ</li>
+        </ul>
+    </nav>
+</aside>
+
+ <main>
+    <section>
+        <h2>КАПИТАН ЗАЛУПА С КОРАБЛЯ СБЕЖАЛ</h2>
+        <article>
+            <h3>КАПИТАН</h3>
+            <p>pizdec</p>
+        </article>
+
+        <article>
+            <h3>ЗАЛУПА</h3>
+            <p>pizdec</p>
+        </article>
+    </section>
+</main>
+
 <body>
-    <h1>Code Basics</h1>
-    <p>Бесплатные уроки по программированию и HTML для новичков</p>
+    <h1>Skuf Basics</h1>
+    <p>Бесплатные практические уроки по скуфированию для начинающих</p>
     <pre>
 //Пример кода на языке SkufLang
 const scuf = (num) => {
     return num * num
 };
     </pre>
-    <img src="https://bigpicture.ru/wp-content/uploads/2022/09/bigpicture_ru_16451315703610-1024x768.jpg" width="320" height="240">
+    <p>
+        <img src="https://bigpicture.ru/wp-content/uploads/2022/09/bigpicture_ru_16451315703610-1024x768.jpg" width="320" height="240">
+    </p>
+    <span>Скуф является скуфским элементом.</span>
+    <span>Он занимает ширину, равную ширине своего обрюзгшего тела, поэтому живот переносится вниз.</span>
+    <form action="/people">
+        <label>
+            Введите электронную почту
+            <input type="email" placeholder="ivan.ivanov@gmail.com">
+        </label>
+        <br>
+        <label>
+            Введите пароль
+            <input type="password" placeholder="********">
+        </label>
+    </form>
+    <form action="/people">
+        <label>
+            <input type="checkbox" name="languages" value="HTML">
+            I want to learn HTML
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="languages" value="CSS">
+            I want to learn CSS
+        </label>
+    </form>
+
+    <form action="/people">
+        <label>
+            Вы скуф?
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="question" value="yes">
+            Я скуф
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="question" value="no">
+            Я не скуф
+        </label>
+    </form>
+
+    <form action="/people">
+        <textarea rows="4" cols="30" placeholder="Ваше впечатление от скуфидонства?"></textarea>
+    </form>
+
+    <form action="/people">
+        <label>
+            Насколько вы скуф?
+        </label>
+        <br>
+        <select>
+            <option>0%</option>
+            <option>50%</option>
+            <option>100%</option>
+        </select>
+    </form>
+
+    <form action="/people">
+        <label>
+            Насколько вы скуф?
+            <input type="text">
+        </label>
+        <br>
+        <label>
+            Каким скуфом вы видите себя в будущем?
+            <input type="text">
+        </label>
+        <br>
+        <label>
+            Какие скуфы вам понравились?
+        </label>
+        <select multiple>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+        <br>
+        <button>Отправить</button>
+    </form>
+
 </body>
 </html>
+
+<!--meta
+<title>Skuf Basics: основы скуфирования</title>
+<meta name="description" content="Бесплатные практические уроки по скуфированию для начинающих">
+<meta charset="UTF-8">-->
+<!--link
+<link rel="icon" href="https://www.w3schools.com/favicon.ico" type="image/png" sizes="64x64">-->
+<!--viewport
+<meta name="viewport" content="width=1024, user-scalable=no">-->
+<!--span
+<span>Скуф является скуфским элементом.</span>
+<span>Он занимает ширину, равную ширине своего обрюзгшего тела, поэтому живот переносится вниз.</span>-->
+<!--form-basics
+<form action="/people">
+    //Данные после заполнения будут отправлены на страницу /people
+</form>-->
+<!--input
+<form action="/people">
+    <label>Введите электронную почту
+        <input type="email" placeholder="ivan.ivanov@gmail.com">
+    </label>
+    <p>
+        <label>Введите пароль
+            <input type="password" placeholder="********">
+        </label>
+    </p>
+</form>-->
+<!--checkbox
+<form action="/people">
+    <label>
+        <input type="checkbox" name="languages" value="HTML">
+        I want to learn HTML
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" name="languages" value="CSS">
+        I want to learn CSS
+    </label>
+</form>-->
+<!--radio
+<form action="/people">
+    <label>
+        <input type="radio" name="delivery" value="courier">
+        Курьером
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="delivery" value="post">
+        Почтой
+    </label>
+</form>-->
+<!--textarea
+<form action="/people">
+    <textarea rows="4" cols="30" placeholder="Ваше впечатление от скуфидонства?"></textarea>
+</form>-->
+<!--select
+<form action="/people">
+    <select>
+        <option>JS</option>
+        <option>PHP</option>
+        <option>Java</option>
+    </select>
+</form>-->
+<!--button
+<form action="/people">
+    <label>
+        Name
+        <input type="text">
+    </label>
+    <label>
+        Email
+        <input type="text">
+    </label>
+    <select multiple>
+        <option disabled>Which course you want to take?</option>
+        <option>JS</option>
+        <option>PHP</option>
+        <option>Java</option>
+    </select>
+
+    <button>Apply</button>
+</form>-->
+<!--semantic-elements
+<header>
+    // Site header
+</header>
+<footer>
+    // Site footer
+</footer>-->
+<!--semantics-header
+<header>
+    <img src="/logo.png" alt="Code Basics">
+    <ul>
+        <li><a href="/languages/html">HTML Course</a></li>
+        <li><a href="/languages/css">CSS Course</a></li>
+    </ul>
+</header>-->
+<!--nav
+<header>
+    <img src="/logo.png" alt="Code Basics">
+    <nav>
+        <ul>
+            <li><a href="/languages/html">HTML Course</a></li>
+            <li><a href="/languages/css">CSS Course</a></li>
+        </ul>
+    </nav>
+</header>-->
+<!--main
+<header>
+    <img src="/logo.png" alt="Code Basics">
+    <nav>
+        <ul>
+            <li><a href="/languages/html">HTML Course</a></li>
+            <li><a href="/languages/css">CSS Course</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1>Free hands-on programming courses for those starting from scratch</h1>
+    <p>From the creators of Hexlet</p>
+</main>-->
+<!--section
+<header>
+    <img src="/logo.png" alt="Code Basics">
+    <nav>
+        <ul>
+            <li><a href="/languages/html">HTML Course</a></li>
+            <li><a href="/languages/css">CSS Course</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1>Free hands-on programming courses for those starting from scratch</h1>
+    <p>From the creators of Hexlet</p>
+
+    <section>
+        <h2>Languages available for learning</h2>
+        <ul>
+            <li>Javascript</li>
+            <li>PHP</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Racket</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Frontend courses</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </section>
+</main>-->
+
+<!--article
+<header>
+    <img src="/logo.png" alt="Code Basics">
+    <nav>
+        <ul>
+            <li><a href="/languages/html">HTML Course</a></li>
+            <li><a href="/languages/css">CSS Course</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1>Free hands-on programming courses for those starting from scratch</h1>
+    <p>From the creators of Hexlet</p>
+
+    <section>
+        <h2>Frontend Courses</h2>
+
+        <article>
+            <h3>HTML</h3>
+            <p>To normalize text rendering in a browser was developed HTML markup language that describes the rules for the layout of text data. Despite the long evolution of the language, its basic concepts haven't changed even after more than 20 years.</p>
+            <a href="/languages/html">Learn</a>
+        </article>
+
+        <article>
+            <h3>CSS</h3>
+            <p>Cascading Style Sheets (CSS) allow you to style page content according to specified rules. Text styles, page layout, and animations are all defined using CSS.</p>
+            <a href="/languages/css">Learn</a>
+        </article>
+    </section>
+</main>-->
+
+
+<!--semantics
+<main>
+    <article>
+        <header>
+            <h1>Каково быть скуфом</h1>
+            <img src="https://bigpicture.ru/wp-content/uploads/2022/09/bigpicture_ru_16451315703610-1024x768.jpg" width="320" height="240" alt="Скуф">
+        </header>
+
+        <p>Каково быть скуфом? Я не знаю ответа на данный вопрос...</p>
+
+        <footer>
+            <address>
+                <p>Скуф: Скуфослав</p>
+                <p>Skufail: skufoslav@skuf.skuf</p>
+            </address>
+            <time datetime="2024-07-10">10 июля</time>
+        </footer>
+    </article>
+</main>-->
